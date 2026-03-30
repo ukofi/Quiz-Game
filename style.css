@@ -156,3 +156,33 @@ button {
 button:hover {
   background-color: #d45b28;
 }
+
+/*Make all screen responsive*/
+
+@media (max-width: 500px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .screen {
+    padding: 1rem;
+  }
+
+  #start-screen h1 {
+    font-size: 2rem;
+  }
+
+  #question-text {
+    font-size: 1.3rem;
+  }
+
+  .answer-btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 12px 25px;
+  }
+}
