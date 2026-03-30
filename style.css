@@ -1,0 +1,47 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5efe6;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+.container {
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+/*Style for all the screens */
+.screen {
+  display: none;
+  padding: 2rem;
+  text-align: center;
+}
+.screen.active {
+  display: block;
+}
+
+/* Quiz Start Screen */
+#start-screen h1 {
+  color: #ff6f61;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+#start-screen p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
